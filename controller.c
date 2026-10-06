@@ -357,7 +357,7 @@ int main(int argc, char **argv) {
   for (;;) {
     char line[MAX_PAYLOAD];
     int result;
-    fputs("controller> ", stdout);
+    fputs("controller@ipterm> ", stdout);
     fflush(stdout);
     if (fgets(line, sizeof(line), stdin) == NULL) {
       break;
